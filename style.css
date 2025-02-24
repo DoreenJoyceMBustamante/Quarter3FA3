@@ -1,14 +1,54 @@
-body { 
-font-family:Georgia, 'Times New Roman', Times, serif; 
-padding: 20px; 
+body{
+    background-image: url("mc.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(39, 22, 6);
 }
 
-.box { 
-border: 1px solid darkgray; 
-padding: 15px; border-radius: 8px; 
-margin-bottom: 20px; 
+#common {
+    display: block;
+    border-radius: 15px;
+    justify-content: center;
+    max-width: 300px;
+    padding: 20px;
+    background-color: rgba(232, 191, 198, 0.5);
+    text-align: center;   
+    margin: 0 auto;     
 }
-        
-p { 
-margin: 5px 0;
+
+#summary {
+    display: block;
+    border-radius: 15px;
+    max-width: 300px;
+    padding: 20px;
+    background-color: rgba(232, 191, 198, 0.5);
+    text-align: center;  
+    margin: 0 auto;      
+}
+
+button {
+    height: 50px;
+    width: 100px;
+    border-radius: 40px;
+    background-color: rgba(232, 191, 198, 0.5);
+    text-align: center;
+    margin: 10px auto;
+    display: block;
+}
+
+#numplayers, #item, #time {
+    display: block;
+    border-radius: 15px;
+    justify-content: center;
+    max-width: 300px;
+    padding: 20px;
+    text-align: center;  
+    margin: 0 auto;    
+}
+
+#num1:empty, #num2:empty, #num3:empty {
+    display: none;   
 }
